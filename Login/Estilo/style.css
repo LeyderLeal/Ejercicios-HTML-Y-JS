@@ -1,0 +1,54 @@
+body{
+    background-color:black;
+    display: flex;
+    position: relative;
+}
+
+.container-login{
+    position: absolute;
+    background-color: blueviolet;
+    width: 40%;
+    height: 500px;
+    left: 30%;
+    top: 100px;
+    border-radius: 5%;
+    padding: 2%;
+    
+}
+
+.container-login h3{
+    text-align:  center;
+}
+
+.container-login input{
+    width: 95%;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.container-login label{
+    margin-top: 2%;
+}
+
+button{
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: beige;
+    transition: all 500ms;
+}
+
+.container-login a{
+    display: flex;
+    justify-content: center;
+}
+
+#mp{
+    height: 8%;
+    width: 8%;
+}

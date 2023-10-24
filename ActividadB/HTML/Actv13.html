@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Actv13.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" id="form">
+        <div class="form">
+            
+            <div class="title">
+            <p>REGISTRO DE ESTUDIANTES</p>
+            </div>
+            
+            <div class="grupo">
+                <input type="number" id="id" name="id"><span class="barra"></span>
+                <label for="">Identificación</label>
+            </div>
+            <div class="grupo">
+                <input type="text" id="name" name="name"><span class="barra"></span>
+                <label for="">Nombre Completo</label>
+            </div>
+            <div class="grupo">
+                <input type="email" id="email" name="email"><span class="barra"></span>
+                <label for="">Correo</label>
+            </div>
+            
+            <div class="grupo">
+            <label for="">Seleccione Curso</label>
+            <select id="curso" name="curso">
+                <option value="ADSO">ADSO</option>
+                <option value="DISEÑO GRÁFICO">Diseño Gráfico</option>
+                <option value="SOLDADURA">Soldadura</option>
+                <option value="CONTABILIDAD">Contabilidad</option>
+            </select>
+            </div>
+            
+            <div class="button">
+            <button type="submit">Registrar</button>
+            <p class="warnings" id="warnings"></p>
+            </div>
+        
+        </div>
+        </form>
+
+        <div class="list" id="list">
+            <h3>LISTADO DE ALUMNOS MATRICULADOS</h3>
+                <table>
+                        <tbody id="cuerpoTabla">
+                            <tr>
+                                
+                            </tr>
+                        </tbody>
+                
+                </table>
+        </div>
+    <script src="../JS/Actv13.js"></script>
+</body>
+</html>

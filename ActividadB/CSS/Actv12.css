@@ -1,0 +1,16 @@
+#title{
+    background-color: rgb(195, 255, 135);
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #3d3d3d;
+    color: white;
+    height: 35px;
+    width: 110px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
